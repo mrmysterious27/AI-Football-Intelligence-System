@@ -1,0 +1,163 @@
+
+
+# ⚽ AI Football Intelligence System
+
+### 🚀 ScaleDown Challenge Project
+
+An end-to-end Machine Learning system that predicts **Expected Goals (xG)** — the probability of a shot resulting in a goal — using real football match data.
+
+Built as part of the **ScaleDown Challenge**, this project focuses on delivering an optimized, efficient, and deployable AI solution for sports analytics.
+
+---
+
+## 📌 Project Overview
+
+In football analytics, goals alone do not fully represent performance.
+The **Expected Goals (xG)** metric helps evaluate the quality of scoring chances.
+
+This system:
+
+* Uses real StatsBomb CSV shot data
+* Engineers spatial features like shot distance and angle
+* Trains a Logistic Regression model
+* Evaluates performance using ROC-AUC and Accuracy
+* Deploys predictions via a Streamlit web application
+
+---
+
+## 🧠 ScaleDown Challenge Focus
+
+The ScaleDown Challenge emphasizes building impactful systems with optimized complexity.
+
+This project achieves that by:
+
+* Using lightweight and interpretable models
+* Reducing unnecessary feature complexity
+* Ensuring fast training and inference
+* Deploying an efficient interactive interface
+
+The result is a scalable and production-ready football analytics system.
+
+---
+
+## 📊 Dataset
+
+The model is trained using **StatsBomb shot event CSV data**.
+
+Features include:
+
+* Shot location (X, Y coordinates)
+* Shot distance from goal
+* Shot angle
+* Shot outcome (Goal / No Goal)
+
+The dataset enables realistic and practical xG predictions.
+
+---
+
+## ⚙️ System Architecture
+
+### 1️⃣ Data Processing
+
+* Load CSV dataset
+* Clean and preprocess shot data
+* Encode target variable
+
+### 2️⃣ Feature Engineering
+
+* Calculate shot distance
+* Compute shot angle
+* Prepare model-ready feature set
+
+### 3️⃣ Model Training
+
+* Algorithm: Logistic Regression
+* Binary classification (Goal vs No Goal)
+
+### 4️⃣ Model Evaluation
+
+* Accuracy Score
+* ROC-AUC Score
+* Confusion Matrix
+
+### 5️⃣ Deployment
+
+* Built with Streamlit
+* Interactive user interface
+* Real-time xG prediction
+
+---
+
+## 💻 Tech Stack
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* Streamlit
+
+---
+
+## 🚀 Installation & Setup
+
+### Clone the Repository
+
+```
+git clone https://github.com/mrmysterious27/AI-Football-Intelligence-System.git
+cd AI-Football-Intelligence-System
+```
+
+### Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+```
+streamlit run app.py
+```
+
+---
+
+## 📈 Key Features
+
+✔ Real football analytics application
+✔ End-to-end ML pipeline
+✔ Interpretable prediction model
+✔ Lightweight and scalable design
+✔ Interactive deployment
+✔ Optimized for efficiency
+
+---
+
+## 🔮 Future Enhancements
+
+* Advanced ML models (Random Forest, XGBoost)
+* Deep Learning–based xG prediction
+* Player impact analysis
+* Tactical heatmaps
+* Team comparison dashboards
+* Real-time analytics integration
+
+---
+
+## 🏆 Learning Outcomes
+
+This project demonstrates:
+
+* Applied Machine Learning
+* Sports Data Analytics
+* Feature Engineering
+* Model Evaluation
+* Scalable System Design
+* ML Deployment
+
+---
+
+## 📬 Connect
+
+If you're interested in AI, Sports Analytics, or scalable ML systems, feel free to connect and collaborate.
+
